@@ -1,0 +1,7 @@
+Xarid:\s*(.*?)\s+([0-9]{2}\.[0-9]{2}\.[0-9]{2})\s+\d{2}:\d{2}\s+karta\s+\*+(\d{4}).*?Miqdor:\s*(\d[\d\s.,]*)\s+([A-Z]{3}),\s+Qoldiq:\s*(-?\d[\d\s.,]*[.,]\d{2})\s+([A-Z]{3})
+
+-----COLUMNS-----
+payee;date#dMy;syncid;outcome;instrument;balance;acc_instrument
+
+-----EXAMPLE-----
+Xarid: OOO MEDION LABZAK, Toshkent, Shayxontohur MFY Labzak mavzesi 17.02.26 15:59 karta ***8177. Miqdor:380000.00 UZS, Qoldiq:23423577.75 UZS
