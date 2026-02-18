@@ -1,0 +1,7 @@
+Card No XXXX(\d{4})\s+([A-Z]{3})\s+(\d[\d\s.,]*[.,]\d{2})\s+(.*?)\s+(\d{2}\/\d{2}\/\d{2})(?=.*?Avl Bal\s+[A-Z]{3}\s+(-?\d[\d\s.,]*[.,]\d{2})).*?Avl Bal\s+([A-Z]{3})\s+-?\d[\d\s.,]*[.,]\d{2}
+
+-----COLUMNS-----
+syncid;instrument;outcome;payee;date#dMy;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Credit Card Purchase  Card No XXXX2586  AED 9.00  IKEA-YAS-IFB2054 ABU DHABI AE  15/02/26 21:07  Avl Bal AED 16460.43 February statement due on 09/03/2026
