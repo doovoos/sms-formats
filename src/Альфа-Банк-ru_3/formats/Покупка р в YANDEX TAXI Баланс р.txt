@@ -1,0 +1,7 @@
+Покупка\s+\*(\d{4}):\s+(\d[\d\s.,]*)\s+([^\s]+)\s+в\s+(.+?)\s+Баланс:\s+(\d[\d\s.,]*)\s+([^\s]+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка *0136: 2936 р в YANDEX 4121 TAXI Баланс: 18 р
