@@ -1,0 +1,7 @@
+Пополнение на (\d[\d\s.,]*[.,]\d{2})\s([A-Z]{3})\. Доступно (\d[\d\s.,]*[.,]\d{2})\s([A-Z]{3})
+
+-----COLUMNS-----
+income;instrument;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Пополнение на 694.00 RUB. Доступно 694.00 RUB ║ Карта Про
