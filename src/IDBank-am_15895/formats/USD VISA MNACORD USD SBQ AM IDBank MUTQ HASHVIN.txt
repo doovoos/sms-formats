@@ -1,0 +1,7 @@
+(\d[\d\s.,]*[.,]\d{2})\s([A-Z]{3})\sVISA\s+\*{2}(\d{4})\s-\s([^:]+?):\s(\d[\d\s.,]*[.,]\d{2})\s([A-Z]{3}).*?(\d{2}\.\d{2}\.\d{4})
+
+-----COLUMNS-----
+outcome;instrument;syncid;payee;op_outcome;op_instrument;date#dMy
+
+-----EXAMPLE-----
+7.00 USD VISA **0053 - MNACORD: 8.08 USD SBQ, AM 13.02.2026 20:40 ║ IDBank: MUTQ HASHVIN
