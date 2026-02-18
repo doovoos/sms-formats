@@ -1,0 +1,7 @@
+de\s+(\d[\d\s.,]*[.,]\d{2})\s+([A-Z]{3})\s+en\s+(.+?)\s+con tu tarjeta terminada en\s+(\d{4})\b
+
+-----COLUMNS-----
+outcome;instrument;payee;syncid
+
+-----EXAMPLE-----
+Pago aceptado de 16,00 EUR en CIUDAD DE LAS ARTES Y LAS con tu tarjeta terminada en 2940. ║ Pago aceptado  👍💳
