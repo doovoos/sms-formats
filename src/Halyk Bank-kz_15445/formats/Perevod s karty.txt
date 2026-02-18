@@ -1,0 +1,7 @@
+Perevod\s+(\d[\d\s.,]*)(\S+)\s+s\s+karty\s+\*(\d{4})
+
+-----COLUMNS-----
+outcome;instrument;syncid
+
+-----EXAMPLE-----
+11:44 Perevod 2200.00₸ s karty *5143. ║
