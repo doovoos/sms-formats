@@ -1,0 +1,7 @@
+You made a\s+(\S+)\s*(\d[\d\s.,]*)\s+transaction with\s+(.+?)\s+on\s+([A-Za-z]+\s\d{1,2},\s\d{4})\s+at
+
+-----COLUMNS-----
+instrument;outcome;payee;date#dMy
+
+-----EXAMPLE-----
+Chase Sapphire Preferred Visa: You made a $3.44 transaction with CHARGEPOINT. INC on Feb 17, 2026 at 5:15 PM ET.
