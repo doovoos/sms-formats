@@ -1,0 +1,7 @@
+Số dư TK VCB\s+\d*(\d{4})\s+\+(\d[\d\s,]*)\s+([A-Za-z]{3})\s+lúc\s+(\d{2}-\d{2}-\d{4}).*?Số dư\s+(\d[\d\s,]*)\s+([A-Za-z]{3})\.\s+Ref\b.*?([^.]+?)\.(?=\d{8}\.)\d{8}\.(?:[^\.\s]+)\.(?:[^\.\s]+)\.(?:[^\.\s]+)\.([^.]+?)\.
+
+-----COLUMNS-----
+syncid;income;instrument;date#dMy;balance;acc_instrument;comment;payee
+
+-----EXAMPLE-----
+Số dư TK VCB 1054777108 +58,232 VND lúc 13-02-2026 11:45:07. Số dư 416,259 VND. Ref 6044IBT1iJ9C4B1R.ZP260440257883 260213001785313 260202000075003 ZaloPay hoan tien VietQR.20260213.114507.212356786.CONG TY CO PHAN ZION.970432 ║ Thông báo VCB
