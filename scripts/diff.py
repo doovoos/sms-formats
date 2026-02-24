@@ -24,6 +24,7 @@ from sms_format_repository import (
     find_company_by_id,
     find_format_by_id,
     find_format_by_name,
+    get_repo_root,
     list_senders,
     parse_name_with_id,
     save_company,
@@ -38,7 +39,13 @@ def _run_git(args, env=None):
     import os
 
     full_env = {**os.environ, **(env or {})}
-    result = subprocess.run(args, capture_output=True, text=True, env=full_env)
+    result = subprocess.run(
+        args,
+        capture_output=True,
+        text=True,
+        env=full_env,
+        cwd=str(get_repo_root()),
+    )
     if result.returncode != 0:
         cmd = " ".join(args)
         raise RuntimeError(f"Git command failed: {cmd}\n{result.stderr or result.stdout}")
@@ -49,7 +56,13 @@ def _run_git_returncode(args, env=None):
     import os
 
     full_env = {**os.environ, **(env or {})}
-    result = subprocess.run(args, capture_output=True, text=True, env=full_env)
+    result = subprocess.run(
+        args,
+        capture_output=True,
+        text=True,
+        env=full_env,
+        cwd=str(get_repo_root()),
+    )
     return result.returncode
 
 
